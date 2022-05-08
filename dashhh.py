@@ -689,4 +689,4 @@ app.layout = html.Div(children=[
 if __name__ == '__main__':
     host = socket.gethostbyname(socket.gethostname())
     print(host)
-    app.run_server(debug=True, host=host, port=8090)
+    app.run_server(debug=True, host='0.0.0.0', port=8090)
